@@ -3,6 +3,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+li{
+    align-items: center;
+    justify-content: center;
+}
+
 .emcima{
     width: 600px;
     height: 800px;
@@ -18,8 +24,7 @@ body {
     width: 300px;
     height: 70px;
     background-color: green;
-    display: block;  
-    
+    display: flex;  
 }
 
 .active {
